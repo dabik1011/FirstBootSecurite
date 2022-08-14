@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+Hello world!
+<br/>
+<!--<button onclick="document.location='/logout'">Logout</button>-->
+<form th:action = "@{/logout}" method="post">
+    <input type="submit" value="Logout">
+</form>
+</body>
+</html>
